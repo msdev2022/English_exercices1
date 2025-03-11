@@ -1,72 +1,94 @@
-<section id="exercises">
-    <h2>التمارين</h2>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>التمارين</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>✍️ تمارين قواعد اللغة الإنجليزية</h1>
 
-    <!-- تمرين 1: أكمل الجمل بالأزمنة الصحيحة -->
-    <div class="exercise">
-        <h3>تمرين 1: أكمل الجمل بالأزمنة الصحيحة</h3>
-        <p>1. She <input type="text" id="q1"> (watch) TV now.</p>
-        <p>2. They <input type="text" id="q2"> (go) to Paris last year.</p>
-        <p>3. I <input type="text" id="q3"> (study) when the phone rang.</p>
-        <p>4. We <input type="text" id="q4"> (visit) our grandma next week.</p>
-        <p>5. He always <input type="text" id="q5"> (drink) coffee in the morning.</p>
+        <h2>تمرين 1: أكمل الجمل بالأزمنة الصحيحة</h2>
+        <form>
+            <label>1. She __________ (watch) TV now.</label>
+            <input type="text" name="q1">
+
+            <label>2. They __________ (go) to Paris last year.</label>
+            <input type="text" name="q2">
+
+            <label>3. I __________ (study) when the phone rang.</label>
+            <input type="text" name="q3">
+
+            <label>4. We __________ (visit) our grandma next week.</label>
+            <input type="text" name="q4">
+
+            <label>5. He always __________ (drink) coffee in the morning.</label>
+            <input type="text" name="q5">
+        </form>
+
+        <h2>تمرين 2: اختر الكلمة الصحيحة</h2>
+        <form>
+            <label>1. I __________ go to the party because I was sick.</label>
+            <select name="q6">
+                <option>can't</option>
+                <option>couldn't</option>
+                <option>mustn't</option>
+            </select>
+
+            <label>2. You __________ respect your parents.</label>
+            <select name="q7">
+                <option>must</option>
+                <option>may</option>
+                <option>can</option>
+            </select>
+
+            <label>3. It __________ rain later, so take an umbrella.</label>
+            <select name="q8">
+                <option>can</option>
+                <option>may</option>
+                <option>should</option>
+            </select>
+        </form>
+
+        <h2>تمرين 3: حول الجمل إلى المبني للمجهول</h2>
+        <form>
+            <label>1. They cleaned the house yesterday.</label>
+            <input type="text" name="q9">
+
+            <label>2. The teacher explains the lesson.</label>
+            <input type="text" name="q10">
+
+            <label>3. Someone stole my phone.</label>
+            <input type="text" name="q11">
+        </form>
+
+        <h2>تمرين 4: استخدم أداة الاستفهام الصحيحة</h2>
+        <form>
+            <label>1. __________ do you live?</label>
+            <select name="q12">
+                <option>Where</option>
+                <option>When</option>
+                <option>Who</option>
+            </select>
+
+            <label>2. __________ is your best friend?</label>
+            <select name="q13">
+                <option>What</option>
+                <option>Who</option>
+                <option>How</option>
+            </select>
+
+            <label>3. __________ did you wake up today?</label>
+            <select name="q14">
+                <option>When</option>
+                <option>Where</option>
+                <option>Why</option>
+            </select>
+        </form>
+
+        <a href="index.html" class="btn back">← العودة إلى الصفحة الرئيسية</a>
     </div>
-
-    <!-- تمرين 2: اختر الكلمة الصحيحة -->
-    <div class="exercise">
-        <h3>تمرين 2: اختر الكلمة الصحيحة</h3>
-        <p>1. I <select id="q6">
-            <option value="">-- اختر --</option>
-            <option value="can't">can't</option>
-            <option value="couldn't">couldn't</option>
-            <option value="mustn't">mustn't</option>
-        </select> go to the party because I was sick.</p>
-
-        <p>2. You <select id="q7">
-            <option value="">-- اختر --</option>
-            <option value="must">must</option>
-            <option value="may">may</option>
-            <option value="can">can</option>
-        </select> respect your parents.</p>
-
-        <p>3. It <select id="q8">
-            <option value="">-- اختر --</option>
-            <option value="can">can</option>
-            <option value="may">may</option>
-            <option value="should">should</option>
-        </select> rain later, so take an umbrella.</p>
-    </div>
-
-    <!-- تمرين 3: حول الجمل إلى المبني للمجهول -->
-    <div class="exercise">
-        <h3>تمرين 3: حول الجمل إلى المبني للمجهول</h3>
-        <p>1. They cleaned the house yesterday. → <input type="text" id="q9"></p>
-        <p>2. The teacher explains the lesson. → <input type="text" id="q10"></p>
-        <p>3. Someone stole my phone. → <input type="text" id="q11"></p>
-    </div>
-
-    <!-- تمرين 4: استخدم أداة الاستفهام الصحيحة -->
-    <div class="exercise">
-        <h3>تمرين 4: استخدم أداة الاستفهام الصحيحة</h3>
-        <p>1. <select id="q12">
-            <option value="">-- اختر --</option>
-            <option value="Where">Where</option>
-            <option value="When">When</option>
-            <option value="Who">Who</option>
-        </select> do you live?</p>
-
-        <p>2. <select id="q13">
-            <option value="">-- اختر --</option>
-            <option value="What">What</option>
-            <option value="Who">Who</option>
-            <option value="How">How</option>
-        </select> is your best friend?</p>
-
-        <p>3. <select id="q14">
-            <option value="">-- اختر --</option>
-            <option value="When">When</option>
-            <option value="Where">Where</option>
-            <option value="Why">Why</option>
-        </select> did you wake up today?</p>
-    </div>
-
-</section>
+</body>
+</html>
